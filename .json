@@ -1,0 +1,27 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://xebee.xebia.in/index.php/2014/04/02/selenium-integration-with-git-hub-and-ci/"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.post-content.clearfix"
+      }
+    },
+    {
+      "type": "refresh"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
